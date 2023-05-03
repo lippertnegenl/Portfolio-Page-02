@@ -4,43 +4,35 @@
   margin: 0;
 }
 
-
 body {
-  background-color: #76e209;
+  background-color: #3b2628cb;
 }
 
 .header {
   font-family:'Lucida Grande';
-  background-color: #2297dad5;
+  background-color: #292836f1;
   color: #ffffff;
   text-align: center;
   font-size: 48px;
 }
 
-
-.header h2 {
-  text-align: center;
-  padding-top: 20px;
-  font-family: 'Gill Sans';
-  font-size: 30px;
-}
-
 ul {
+  padding-top: 20px;
+  padding-bottom: 10px ;
   text-align: center;
-  margin-left: 100px;
   list-style-type: none;
+  font-family: 'Gill Sans';
 }
 
 li {
-  margin-left: 100px;
   display: inline;
 }
 
 a {
-  color: #da1919;
-  font-size: 30px;
+  display: inline;
+  color: #bb1e1e;
+  font-size: 30px; 
 }
-
 
 .content {
   margin-top: 20px;
@@ -48,38 +40,50 @@ a {
 }
 
 .About-Me  { 
-  margin-top: 75px;
+  margin-top: 20px;
   margin-left: auto;
+  color: #ffffff;
+  font-size: 30px;
 }
 
 #Family-Pictures {
-  display: flex;
-  flex: wrap;
-  height: 450px;
-  width: 450px;
+  display:inline-flex;
+  height:450px;
+  width: 450px; 
 }
 
+#Paragraph {
+  margin-top: 5px;
+}
 
 p {
   float: center;
   font-size: 30px;
-  color:#114ff8;
+  color:#b4b226;
 }
 
 .My-Work {
-  display: inline-block;
-  margin-top: 75px;
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 30px;
 }
 
 .hero {
+  display: flex;
   position: relative;
   height: auto;
   width: auto;
 }
 h3 {
-  position: absolute;
-  margin-bottom: -10px;
-  margin-left: 10px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  margin-left: 40px;
   font-size: 30px;
-  color: rgb(183, 219, 20);
+  color: rgb(78, 87, 38);
+}
+
+a {
+  margin-left: 80px;
+
 }
